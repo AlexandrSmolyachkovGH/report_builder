@@ -6,8 +6,6 @@ from services.reader.csv_report import CSVEmployeeDataReader
 
 base_dir = Path.cwd()
 files_dir = base_dir / "files_for_processing"
-print(f"base_dir: {base_dir}")
-print(f"files_dir: {files_dir}")
 
 
 def run_builder():
